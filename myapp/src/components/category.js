@@ -6,7 +6,7 @@ const Category =() =>{
         <div>
             <ul className="items" >  
             {
-                cate.map((x) => <li><a className="categorys" href="">{x}</a></li>)
+                cate.map((x, index) => <li key={index}><a className="categorys" href="">{x}</a></li>)
             }
             </ul>
         </div>

@@ -1,11 +1,22 @@
 import './navbar.css';
+const linkedData =[
+    {icon:"fa-brands fa-twitter", name:'TWITTER', classNer:'btn-twitter' },
+    {icon:"fa-brands fa-linkedin", name:'LINKEDIN', classNer:'btn-linked'},
+    {icon:"fa-brands fa-medium", name:'MEDIUM', classNer:'btn-medium'},
+];
 
-// const linked = [{
-//      imageURL: './img/Group 290.png'},
-//      {imageURL: './img/Group 291.png'},
-//      {imageURL: './img/Group 290.png'},
-//     ]
+const handleClick=(name) =>{
+    alert('Hello' + ' ' + name)
 
+}
+
+const Linkeds =(props) =>{
+    return <div className="Btns" >
+        <button className={props.classNer} onClick={() =>handleClick(props.name)} ><i className={props.icon}></i>{props.name}</button>
+    </div>
+
+}
+ 
 const post =() =>{
     return (
         <div className="row">
@@ -13,11 +24,13 @@ const post =() =>{
                 <h2>Blog Posts</h2>
                 <h5>I think so, this is it.</h5>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquam doloribus hic beatae porro nobis ea molestias, natus molestiae a consequatur repudiandae necessitatibus iste veritatis consequuntur veniam provident reprehenderit tempora ad et maiores autem. Ratione omnis facere fugiat? Laudantium voluptate reiciendis repellat molestiae quibusdam iste ut, cumque culpa maiores! Deleniti?</p>
-                <div className="linked" >
-                    <img src="./img/Group 290.png" alt=""/>
-                    <img src="./img/Group 292.png" alt=""/>
-                    <img src="./img/Rectangle 116.png" alt=""/>  
+                <div className="linked">
+
+                    {
+                linkedData.map((x, index) => <Linkeds key={index} icon={x.icon} name={x.name} classNer={x.classNer} />)
+            }
                 </div>
+
 
             </div>
             <div className = "col" >

@@ -25,8 +25,30 @@ h2{
     margin: 30px 0;
     display: flex;
     width: calc(100%/3 -10px);
+    justify-content: space-between;
     gap: 10px;
+    color: white;
 }
-.linked img{
-    width: 150px;
+.Btns{
+    color: white;
+    padding: 10 20px;
+}
+
+.btn-twitter{
+    background-color: rgba(19, 163, 240, 0.998);
+    color: white;
+    padding: 10px 55px;
+
+}
+.btn-linked{
+    background-color: #1275B1;
+    color: white;
+    padding: 10px 55px;
+
+}
+.btn-medium{
+    background-color: black;
+    color: white;
+    padding: 10px 55px;
+
 }

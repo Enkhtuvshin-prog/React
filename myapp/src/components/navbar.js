@@ -10,7 +10,7 @@
         </div>
         <div>
             <ul className="nav">
-                {data.map((x) =><li className="list" >{x}</li>)}
+                {data.map((x, index) =><li className="list" key={index} >{x}</li>)}
             </ul>
 
         </div>
