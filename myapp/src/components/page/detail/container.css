@@ -1,0 +1,16 @@
+#head1 {
+  color: #3a0ca3;
+}
+#head2 {
+  color: #3a0ca3;
+  font-size: 1.5rem;
+}
+#head3 {
+  color: #3a0ca3;
+  font-size: 1rem;
+}
+.DetailImg {
+  margin-left: 300px;
+  padding: 20px 0;
+  text-align: center;
+}
