@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "awesome": "^0.0.7",
-    "bootstrap": "^5.2.3",
-    "font": "^0.0.4",
-    "react-bootstrap": "^2.7.0"
-  }
-}
