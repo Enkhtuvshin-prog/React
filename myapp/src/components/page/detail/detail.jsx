@@ -1,7 +1,9 @@
 import React from "react";
-import Navbar from "../home/navbar";
+// import Navbar from "../home/navbar";
+import Navbar from "./home/navbar";
 import Container from "./container";
-import Footer from "../home/Footer";
+import Footer from "./home/Footer";
+// import Footer from "../home/Footer";
 
 const Detail = () => {
   return (

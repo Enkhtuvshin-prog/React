@@ -1,4 +1,5 @@
 import Category from "./category";
+// import Product from "./product";
 import Product from "./product";
 
 const Content = () => {

@@ -9,7 +9,7 @@ const data = [
   "ABOUT ME",
   "CONTACT",
 ];
-const navbar = () => {
+const Navbar = () => {
   return (
     <div className="nav">
       <div>
@@ -28,4 +28,4 @@ const navbar = () => {
     </div>
   );
 };
-export default navbar;
+export default Navbar;
