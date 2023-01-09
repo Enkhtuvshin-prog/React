@@ -1,0 +1,22 @@
+.about{
+    /* border: 1px solid black; */
+    width: 500px;
+    /* height: 400px; */
+    border-radius: 20px;
+    margin: 30px auto;
+}
+.Buttons{
+    height: 50px;
+    background-color: gray;
+    padding: -1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text{
+    padding: 20px;
+    color: white;
+    background-color:#212F3D ;
+    /* height: 250px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
