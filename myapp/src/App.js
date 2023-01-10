@@ -23,7 +23,7 @@ function App() {
     }
   };
   return (
-    <div className="app">
+    <div className="container">
       <Home></Home>
       <Detail></Detail>
       {/* <Button variant="primary" onClick={HandleClick}>
