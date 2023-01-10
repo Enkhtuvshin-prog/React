@@ -1,0 +1,33 @@
+.items{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.items li{
+    list-style:none;
+    padding: 20px;
+    font-weight: 600;
+}
+.categorys{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.677);
+    transition: 1s;
+}
+.categorys:hover{
+    color: palevioletred;
+}
+h3{
+    color: palevioletred;
+}
+.productImg{
+    width: 100%;
+}
+.Btns{
+    background-color: transparent;
+    color: #000;
+    border: none;
+    font-weight: 600;
+}
+.Btns:hover{
+    color: palevioletred;
+    background-color: aquamarine;
+}

@@ -1,13 +1,12 @@
 import "./App.css";
 import "./App.scss";
-import Home from "./components/page/detail/home/home";
+import Home from "./components/page/home/home";
 import Detail from "./components/page/detail/detail";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import Button from "react-bootstrap/Button";
-// import { Button } from "react-bootstrap";
-import Btn from "./components/Btn";
+import { Button } from "react-bootstrap";
 import { useState } from "react";
-import Content from "./components/page/detail/home/Content";
+import Btn from "./components/Btn";
 
 const btns = [
   { title: "Add", variant: "primary" },
@@ -31,14 +30,14 @@ function App() {
         Primary
       </Button>
       <Button variant="secondary">Secondary</Button> */}
-      {/* <h3>Count: {count}</h3>
+      <h3>Count: {count}</h3>
       {btns.map((btn) => (
         <Btn
           title={btn.title}
           variant={btn.variant}
           handleClick={HandleClick}
         />
-      ))} */}
+      ))}
     </div>
   );
 }
