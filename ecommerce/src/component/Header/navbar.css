@@ -1,0 +1,12 @@
+.bg-nav{
+    background-color: #003F62;
+    padding: 15px 0;
+}
+.LiMenu{
+    list-style: none;
+}
+.bgBtn{
+    border: none;
+    background-color: orange;
+    height: 100%;
+}
